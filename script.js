@@ -1,4 +1,3 @@
-/*this is my js file*/
 var days = [
   ['Monday'], 
   ['Tuesday'], 
@@ -70,20 +69,20 @@ for (var i = 0; i < days.length; i++) {
   "</div></div></div>";
 };
 
-
+// switch input btns between 3days and 4 days per week workout
 function Switch1() {
   if(workout){
-    document.getElementById("demo").innerHTML = workout2 + group2;
-    document.getElementById("btn").value = "Gymbox x 3 days/week";
-    document.getElementById("btn2").value = "Gymbox x 4 days/week";
+    document.getElementById("demo").innerHTML = workout + group;
+    document.getElementById("4d").value = "Gymbox x 4 days/week";
+    document.getElementById("3d").value = "Gymbox x 3 days/week";
   }
 }
 
 function Switch2() {
   if(workout2){
-    document.getElementById("demo").innerHTML = workout + group;
-    document.getElementById("btn2").value = "Gymbox x 4 days/week";
-    document.getElementById("btn").value = "Gymbox x 3 days/week";
+    document.getElementById("demo").innerHTML = workout2 + group2;
+    document.getElementById("3d").value = "Gymbox x 3 days/week";
+    document.getElementById("4d").value = "Gymbox x 4 days/week";
   }
 }
 

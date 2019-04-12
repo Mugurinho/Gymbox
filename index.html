@@ -5,19 +5,16 @@
 <link rel="stylesheet" href="main.css">
 <title>Gymbox</title>
 </head>
-<body>
-	<!--h2 id="logo">GYMBOX</h2>-->
+<body onload="Switch1()">
 	<div class="logo">
-		<pre>
-			GYM
-			BOX
-		</pre>
+		<h2>GYMBOX</h2>
 	</div>
+	<br><br><br><br>
 	<div id="myDIV">
-	  <input type=button onclick="Switch1()" id="btn" class="btn active" value = "Gymbox x 4 days/week"></input>
-	  <input type=button onclick="Switch2()" id="btn2" class="btn" value = "Gymbox x 3 days/week"></input>
-  </div>
-  <p id="demo"></p>
+	  <input type=button onclick="Switch1()" id="4d" class="btn active" value = "Gymbox x 4 days/week"></input>
+	  <input type=button onclick="Switch2()" id="3d" class="btn" value = "Gymbox x 3 days/week"></input>
+  	</div>
+  	<p id="demo"></p>
 <script src="script.js"></script>
 </body>
 </html>
