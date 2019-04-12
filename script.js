@@ -71,7 +71,7 @@ for (var i = 0; i < days.length; i++) {
 };
 
 
-function Switch() {
+function Switch1() {
   if(workout){
     document.getElementById("demo").innerHTML = workout2 + group2;
     document.getElementById("btn").value = "Gymbox x 3";
