@@ -85,6 +85,19 @@ h2{
 
 }
 
+pre{
+  white-space: pre-wrap;
+  border-style: solid;
+  border-width: 2px;
+  width: 80px;
+  font-family: helvetica-extended,sans-serif;
+  text-align: center;
+  color: white;
+  margin-left: 5px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
 
 
 h3{
