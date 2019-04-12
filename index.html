@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="main.css">
 <title>Gymbox</title>
 </head>
 <body>
-  <input type=button onclick="Switch()" id="btn" value = "Gymbox x 4"></input>
-  <input type=button onclick="Switch2()" id="btn2" value = "Gymbox x 3"></input>
+	<div id="myDIV">
+	  <input type=button onclick="Switch()" id="btn" class="btn active" value = "Gymbox x 4"></input>
+	  <input type=button onclick="Switch2()" id="btn2" class="btn" value = "Gymbox x 3"></input>
+  </div>
   <p id="demo"></p>
-<script src="validation.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
