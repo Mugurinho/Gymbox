@@ -5,17 +5,23 @@
 <link rel="stylesheet" href="main.css">
 <title>Gymbox</title>
 </head>
-<body onload="Switch1()">
+<body onload="Workout4()">
 	<div class="logo">
 		<h2>GYMBOX</h2>
 	</div>
 	<br><br><br><br>
 	<div id="myDIV">
-	  <input type=button onclick="Switch1()" id="4d" class="btn active" value = "Gymbox x 4 days/week"></input>
-	  <input type=button onclick="Switch2()" id="3d" class="btn" value = "Gymbox x 3 days/week"></input>
-	  <input type=button onclick="Switch3()" id="pha" class="btn" value = "PHA circuits"></input>
+	  <input type=button onclick="Workout4()" id="4d" class="btn active" value = "Gymbox x 4 days/week"></input>
+	  <input type=button onclick="Workout3()" id="3d" class="btn" value = "Gymbox x 3 days/week"></input>
+	  <input type=button onclick="Pha()" id="pha" class="btn" value = "PHA circuits"></input>
+	  <input type=button onclick="EatMuscle()" id="eat1" class="btn" value = "Eat for muscle"></input>
+	  <input type=button onclick="EatFatLoss()" id="eat2" class="btn" value = "Eat for fat loss"></input>
   	</div>
   	<p id="demo"></p>
-<script src="script.js"></script>
+<script src="workout4.js"></script>
+<script src="workout3.js"></script>
+<script src="pha.js"></script>
+<script src="eat.js"></script>
+<script src="buttons.js"></script>
 </body>
 </html>
